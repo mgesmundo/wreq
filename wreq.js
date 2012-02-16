@@ -4904,7 +4904,7 @@ function fetch (file, cb) {
 function store (file, data, cb) {
     var requires = detective(data);
     var pending = requires.length;
-    sources[file].source = data;
+    sources[file].source = data + '\n//@ sourceURL=' + file;
     sources[file].requires = {};
     sources[file].run = function () {
         return run(sources[file]);
