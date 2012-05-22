@@ -1,13 +1,29 @@
 {
     "name" : "wreq",
     "version" : "0.0.1",
-    "scripts" : {
-        "install" : "bin/build.sh"
+    "description" : "node-style require()s in the browser without a compile step",
+    "main" : "wreq.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-wreq.git"
     },
-    "dependencies" : {
+    "devDependencies" : {
         "browserify" : "1.9.x",
         "detective" : "0.0.x",
         "http-browserify" : "0.0.x",
         "uglify-js" : "1.2.x"
-    }
+    },
+    "keywords" : [
+        "require",
+        "module",
+        "browser",
+        "loader"
+    ],
+    "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+    },
+    "license" : "MIT/X11",
+    "engine" : { "node" : ">=0.4" }
 }
