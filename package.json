@@ -1,11 +1,11 @@
 {
     "name" : "wreq",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "node-style require()s in the browser without a compile step",
     "main" : "wreq.js",
     "repository" : {
         "type" : "git",
-        "url" : "http://github.com/substack/node-wreq.git"
+        "url" : "http://github.com/substack/wreq.git"
     },
     "devDependencies" : {
         "browserify" : "1.9.x",
