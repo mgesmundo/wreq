@@ -45,6 +45,7 @@ function run (src) {
 }
 
 function fetch (file, cb) {
+    if(file.indexOf('.') < 0) file += '.js'
     if (sources[file]) return cb(sources[file]);
     sources[file] = {};
     var opts = { path : file };
