@@ -1,6 +1,6 @@
 {
     "name" : "wreq",
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "description" : "node-style require()s in the browser without a compile step",
     "main" : "wreq.js",
     "repository" : {
